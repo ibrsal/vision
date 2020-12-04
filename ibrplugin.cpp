@@ -6,6 +6,7 @@ SamplePlugin::SamplePlugin():
 {
 	setupUi(this);
 
+
 	_timer = new QTimer(this);
     connect(_timer, SIGNAL(timeout()), this, SLOT(timer()));
 
